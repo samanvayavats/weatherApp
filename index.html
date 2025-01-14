@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="centerBody">
+        <!-- this is very first line weather app heading -->
+        <H1 class="WeatherAppheading">WEATHER APP</H1> 
+        <!-- this is the search box with the button -->
+        <div class="searchBoxAndButton">
+            <form>
+                <input type="text" id="searchBox"><button id="searchBoxButton">Search</button>
+            </form>
+        </div>
+       <!-- this is the first box which will contain the contryname , statename , city name -->
+        <div class="boxOne">
+            <div class="countryNameBox"><h6>Country Name</h6><p id="countryName">_______</p></div>
+            <div class="stateNameBox"><h6>State Name</h6><p id="stateName">_______</p></div>
+            <div class="cityNameBox"><h6>City Name</h6><p id="cityName">_______</p></div>
+        </div>
+        <!-- this is box two which will contain the humidity , wind speed , temperature ,overcaste -->
+         <div class="boxTwo">
+            <div class="humidityBox"><h6>Humidity</h6><p id="humidity">_______</p></div>
+            <div class="windspeedBox"><h6>Wind Speed</h6><p id="windspeed">_______</p></div>
+            <div class="temperatureBox"><h6>Temperature</h6><p id="temperature">_______</p></div>
+            <div class="imageBox"><img id="image"  src="pascal-bullan-STI61Ubba4Q-unsplash.jpg" alt="error"><p id="humidity">_______</p></div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
